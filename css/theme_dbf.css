@@ -1,0 +1,122 @@
+#housing {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1000px;
+}
+
+#content {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
+}
+
+body {
+  width: 60em;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+  width: 40%;
+}
+
+#content > * {
+  width: auto;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p, ul, li {
+  font-size: 15px;
+  line-height: 1.25;
+  margin-bottom: 5px;
+}
+
+a {
+  color:#ee505e;
+  text-decoration-color:#000000;
+}
+
+.frame {
+  background-color: #000000;
+}
+
+iframe {
+  padding: 5px;
+}
+
+/* RESPONSIVE CONTENT */
+@media only screen and (max-width: 1200px) {
+  #housing {
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 50px;
+      width: auto;
+  }
+  #content {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #housing {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: auto;
+  }
+  #content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  p, ul, li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 35px;
+  }
+  p, ul, li {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    margin: 5px 0px 15px 0px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p, ul, li {
+    font-size: 25px;
+  }
+}
