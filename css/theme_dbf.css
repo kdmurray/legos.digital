@@ -97,8 +97,8 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-  h2 {
-    font-size: 35px;
+  h3 {
+    font-size: 25px;
   }
   p, ul, li {
     font-size: 22px;
@@ -111,10 +111,13 @@ iframe {
     width: 80%;
   }
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
   }
   p, ul, li {
     font-size: 25px;
