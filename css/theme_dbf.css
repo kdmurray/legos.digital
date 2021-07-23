@@ -10,10 +10,7 @@ body {
 .announcement {
   background-color: #fedb00;
   padding: 10px;
-  border-width: 2px;
-  border: 2px, 2px, 2px, 2px;
   border-radius: 10px;
-  border-color: #000000;
 }
 
 a {
