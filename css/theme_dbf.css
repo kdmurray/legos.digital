@@ -7,23 +7,26 @@ body {
   margin-top: 10px;
 }
 
-.announcement {
-  background-color: #fedb00;
+.callout{
   padding: 10px;
   border-radius: 10px;
+}
+
+.alert {
+  background-color: #fedb00;
+}
+
+.highlight {
+  background-color: #440099;
+}
+
+.map {
+  background-color: #ee505e;
 }
 
 a {
   color:#ee505e;
   text-decoration-color:#000000;
-}
-
-.frame {
-  background-color: #000000;
-}
-
-.map {
-  padding: 5px;
 }
 
 .card {
