@@ -12,7 +12,7 @@ body {
   border-radius: 10px;
 }
 
-.alert {
+.headsup {
   background-color: #fedb00;
 }
 
@@ -20,7 +20,7 @@ body {
   background-color: #440099;
 }
 
-.map {
+.worldmap {
   background-color: #ee505e;
 }
 
