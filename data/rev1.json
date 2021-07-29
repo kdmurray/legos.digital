@@ -1,0 +1,474 @@
+var cardData = [
+    {
+        "id": 1,
+        "imageslug": "2020-03-19_23.34.44",
+        "title": "Early Spawn",
+        "desc": "A picture of spawn on one of the first days of the server.",
+        "builder": "",
+        "date": "March 19th, 2020"
+    },
+    {
+        "id": 2,
+        "imageslug": "2020-03-31_18.59.05",
+        "title": "Central Station",
+        "desc": "The central rail station under construction.",
+        "builder": "assert_h",
+        "date": "March 31st, 2020"
+    },
+    {
+        "id": 3,
+        "imageslug": "2020-04-03_16.47.15",
+        "title": "Message Board",
+        "desc": "The spawn-west message board with signs left by players saying some nice things.",
+        "builder": "",
+        "date": "April 3rd, 2020"
+    },
+    {
+        "id": 4,
+        "imageslug": "2020-04-11_08.23.18",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "April 11th, 2020"
+    },
+    {
+        "id": 5,
+        "imageslug": "2020-04-11_11.15.27",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "April 11th, 2020"
+    },
+    {
+        "id": 6,
+        "imageslug": "2020-04-11_13.21.21",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "April 11th, 2020"
+    },
+    {
+        "id": 8,
+        "imageslug": "2020-04-11_13.51.06",
+        "title": "&#x26C5; Floating Island",
+        "desc": "",
+        "builder": "cerobendenzal",
+        "date": "April 11th, 2020"
+    },
+    {
+        "id": 9,
+        "imageslug": "2020-04-11_14.01.22",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "April 11th, 2020"
+    },
+    {
+        "id": 7,
+        "imageslug": "2020-04-11_13.28.54",
+        "title": "",
+        "desc": "A photo of the original world spawn and nearby buildings.",
+        "builder": "",
+        "date": "April 13th, 2020"
+    },
+    {
+        "id": 10,
+        "imageslug": "2020-04-19_17.26.27",
+        "title": "&#x2693; ATP Bay",
+        "desc": "",
+        "builder": "",
+        "date": "April 19th, 2020"
+    },
+    {
+        "id": 13,
+        "imageslug": "2020-04-22_20.19.21",
+        "title": "&#x1F687; DBF Area Rapid Transit",
+        "desc": "",
+        "builder": "",
+        "date": "April 22nd, 2020"
+    },
+    {
+        "id": 14,
+        "imageslug": "2020-04-23_12.17.40",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "April 23rd, 2020"
+    },
+    {
+        "id": 15,
+        "imageslug": "2020-04-23_17.19.15",
+        "title": "&#x1F3D7; Midtown Apartments & Airplane",
+        "desc": "",
+        "builder": "lemonan",
+        "date": "April 23rd, 2020"
+    },
+    {
+        "id": 16,
+        "imageslug": "2020-04-24_10.59.17",
+        "title": "&#x1F388; The Empyrean Airship",
+        "desc": "",
+        "builder": "Bruane_Brenn, Hou5e",
+        "date": "April 24th, 2020"
+    },
+    {
+        "id": 17,
+        "imageslug": "2020-04-30_12.33.39",
+        "title": "Sunflower Station",
+        "desc": "The DBFart station at Sunflower City.",
+        "builder": "",
+        "date": "April 30th, 2020"
+    },
+    {
+        "id": 18,
+        "imageslug": "2020-05-01_10.53.23",
+        "title": "Construction of New Spawn",
+        "desc": "Spawn was rebuilt entirely in survival mode over a single weekend!",
+        "builder": "_bryantkelley, Jake74, lexicondal, whippersnappery, lemonan, assert_h",
+        "date": "May 1st, 2020"
+    },
+    {
+        "id": 19,
+        "imageslug": "2020-05-03_21.54.29",
+        "title": "Buildings at new spawn.",
+        "desc": "",
+        "builder": "",
+        "date": "May 5th, 2020"
+    },
+    {
+        "id": 20,
+        "imageslug": "2020-05-06_22.54.51",
+        "title": "Ship in a Bottle",
+        "desc": "Marco's restored shipwreck in a bottle.",
+        "builder": "",
+        "date": "May 6th, 2020"
+    },
+    {
+        "id": 21,
+        "imageslug": "2020-05-10_16.36.31",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "May 10th, 2020"
+    },
+    {
+        "id": 22,
+        "imageslug": "2020-05-13_20.14.56",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "May 13th, 2020"
+    },
+    {
+        "id": 23,
+        "imageslug": "2020-05-13_20.55.13",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "May 13th, 2020"
+    },
+    {
+        "id": 24,
+        "imageslug": "2020-05-13_21.17.01",
+        "title": "&#x1F3F4;&#x200D;&#x2620;&#xFE0F; Hill Valley",
+        "desc": "Hill Valley, before the harbour.",
+        "builder": "lemonan, philajax, glockstar01, Shrines_",
+        "date": "May 13th, 2020"
+    },
+    {
+        "id": 25,
+        "imageslug": "2020-05-19_17",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "May 19th, 2020"
+    },
+    {
+        "id": 26,
+        "imageslug": "2020-06-06_18.47.26",
+        "title": "&#x1F9D1;&#x200D;&#x2696;&#xFE0F; The Trial",
+        "desc": "A player was put on mock-trial for idling at a farm, and won their case!",
+        "builder": "Wahrheit, _bryantkelley, assert_h, & others",
+        "date": "June 6th, 2020"
+    },
+    {
+        "id": 11,
+        "imageslug": "2020-08-07_17.27.02",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "August 7th, 2020"
+    },
+    {
+        "id": 28,
+        "imageslug": "2020-08-07_17.36.25",
+        "title": "&#x1F343; Windmill at Alps Village",
+        "desc": "",
+        "builder": "whippersnappery, IssyMB",
+        "date": "August 7th, 2020"
+    }, 
+    {
+        "id": 29,
+        "imageslug": "2020-08-07_17.56.04.25",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "August 7th, 2020"
+    }, 
+    {
+        "id": 30,
+        "imageslug": "2020-08-07_18.25.47",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "August 7th, 2020"
+    }, 
+    {
+        "id": 31,
+        "imageslug": "2020-08-07_18.26.58",
+        "title": "Hill Valley Fields",
+        "desc": "Wheat field north of Hill Valley",
+        "builder": "",
+        "date": "August 7th, 2020"
+    }, 
+    {
+        "id": 32,
+        "imageslug": "2020-08-09_11.42.06",
+        "title": "&#x1F309; The Golden Gate",
+        "desc": "Golden Gate bridge in the northeastern badlands",
+        "builder": "Geometaman",
+        "date": "August 9th, 2020"
+    }, 
+    {
+        "id": 33,
+        "imageslug": "2020-08-07_18.26.58",
+        "title": "SFC Conservatory",
+        "desc": "Conservatory at Sunflower City",
+        "builder": "",
+        "date": "August 7th, 2020"
+    },
+    {
+        "id": 27,
+        "imageslug": "2020-08-09_12.55.15",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "August 9th, 2020"
+    },
+    {
+        "id": 34,
+        "imageslug": "2020-08-09_13.03.27",
+        "title": "&#x1F3F0; Alps Village",
+        "desc": "",
+        "builder": "whippersnappery",
+        "date": "August 9th, 2020"
+    },
+    {
+        "id": 58,
+        "imageslug": "2020-08-09_12.53.20",
+        "title": "Sunflower City rowhouses.",
+        "desc": "",
+        "builder": "",
+        "date": "August 9th, 2020"
+    },
+    {
+        "id": 35,
+        "imageslug": "2020-08-10_20.37.00",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "August 10th, 2020"
+    },
+    {
+        "id": 36,
+        "imageslug": "2020-08-10_20.42.01",
+        "title": "&#x1F33B; Sunflower City",
+        "desc": "",
+        "builder": "_bryantkelley",
+        "date": "August 10th, 2020"
+    },
+    {
+        "id": 37,
+        "imageslug": "2020-09-12_22.50.44",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "September 12th, 2020"
+    },
+    {
+        "id": 38,
+        "imageslug": "2020-09-12_22.55.43",
+        "title": "&#x1F5FD; Jungle Statues",
+        "desc": "",
+        "builder": "ggo",
+        "date": "September 12th, 2020"
+    },
+    {
+        "id": 39,
+        "imageslug": "2020-09-20_15.50.21",
+        "title": "The post office!",
+        "desc": "",
+        "builder": "assert_h",
+        "date": "September 20th, 2020"
+    },
+    {
+        "id": 40,
+        "imageslug": "2020-09-20_15.55.26",
+        "title": ">&#x1F339; Rose Hill",
+        "desc": "",
+        "builder": "assert_h",
+        "date": "September 20th, 2020"
+    },
+    {
+        "id": 41,
+        "imageslug": "2020-10-03_14.16.27",
+        "title": "Sunflower City Boulevard",
+        "desc": "",
+        "builder": "",
+        "date": "October 3rd, 2020"
+    },
+    {
+        "id": 42,
+        "imageslug": "2020-10-17_19.46.07",
+        "title": "&#x1F3DB; Server Museum",
+        "desc": "",
+        "builder": "lemonan",
+        "date": "October 17th, 2020"
+    },
+    {
+        "id": 43,
+        "imageslug": "2020-10-18_20.26.23",
+        "title": "Glass Tube",
+        "desc": "Trans-oceanic DBFart Tunnel connecting Hill Valley and the far eastern shores.",
+        "builder": "kdmurz, teh_pitts",
+        "date": "October 18th, 2020"
+    },
+    {
+        "id": 44,
+        "imageslug": "2020-10-29_18.35.17",
+        "title": "&#x1F3D4; The Armory",
+        "desc": "Armory castle at Mountain City",
+        "builder": "whippersnappery, glockstar01, GoblinJones",
+        "date": "October 29th, 2020"
+    },
+    {
+        "id": 45,
+        "imageslug": "2020-11-30_15.08.47",
+        "title": "Merry Christmas!",
+        "desc": "",
+        "builder": "",
+        "date": "November 30th, 2020"
+    },
+    {
+        "id": 46,
+        "imageslug": "2020-11-30_15.09.07",
+        "title": "Merry Christmas!",
+        "desc": "Spawn, all decked out for the holidays.",
+        "builder": "",
+        "date": "November 30th, 2020"
+    },
+    {
+        "id": 53,
+        "imageslug": "2021-01-27_22.40.12",
+        "title": "100K West Tavern",
+        "desc": "Located at 100,000 blocks west of 0,0 in The End.",
+        "builder": "ggo",
+        "date": "January 27th, 2021"
+    },
+    {
+        "id": 56,
+        "imageslug": "2021-02-04_20.10.26",
+        "title": "&#x1F338; Sakura Trees",
+        "desc": "Located atop MurderousPlunky's base.",
+        "builder": "GoblinJones",
+        "date": "February 4th, 2021"
+    },
+    {
+        "id": 51,
+        "imageslug": "2021-02-15_13.32.18",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 15th, 2021"
+    },
+    {
+        "id": 47,
+        "imageslug": "2021-02-15_14.38.23",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 15th, 2021"
+    },
+    {
+        "id": 50,
+        "imageslug": "2021-02-15_13.32.56",
+        "title": "&#x26F5; The Ship",
+        "desc": "A large red-sailed ship landing in the Hill Valley harbour.",
+        "builder": "glockstar01",
+        "date": "February 15th, 2021"
+    },
+    {
+        "id": 48,
+        "imageslug": "2021-02-17_19.29.44",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 17th, 2021"
+    },
+    {
+        "id": 49,
+        "imageslug": "2021-02-17_19.33.48",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 17th, 2021"
+    },
+    {
+        "id": 52,
+        "imageslug": "2021-02-27_16.40.11",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 27th, 2021"
+    },
+    {
+        "id": 54,
+        "imageslug": "2021-02-27_16.42.13",
+        "title": "Progress",
+        "desc": "The Progress Flag at spawn, one of the many pride flags built on the server.",
+        "builder": "",
+        "date": "February 27th, 2021"
+    },
+    {
+        "id": 55,
+        "imageslug": "2021-02-27_16.42.32",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "February 27th, 2021"
+    },
+    {
+        "id": 57,
+        "imageslug": "2021-03-04_17.53.10",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "March 4th, 2021"
+    },
+    {
+        "id": 59,
+        "imageslug": "2021-03-14_23.27.51",
+        "title": "&#x2693; Harbour City",
+        "desc": "Located at the far southeastern end of the dbfart network is Harbour City.",
+        "builder": "kdmurz",
+        "date": "March 14th, 2021"
+    },
+    {
+        "id": 60,
+        "imageslug": "2021-07-15_21.11.40-bulk-tower",
+        "title": "Storage Tower",
+        "desc": "The tower for the community storage building near spawn.",
+        "builder": "kdmurz",
+        "date": "July 15th, 2021"
+    }
+]
