@@ -192,6 +192,14 @@ var cardData = [
         "date": "June 6th, 2020"
     },
     {
+        "id": 26,
+        "imageslug": "2020-06-20_20.42.54",
+        "title": "Eye of the Builders",
+        "desc": "This tall stone and quartz tower is located just south of Harbour City.",
+        "builder": "kdmurz",
+        "date": "June 20th, 2020"
+    },
+    {
         "id": 11,
         "imageslug": "2020-08-07_17.27.02",
         "title": "",
@@ -209,7 +217,7 @@ var cardData = [
     }, 
     {
         "id": 29,
-        "imageslug": "2020-08-07_17.56.04.25",
+        "imageslug": "2020-08-07_17.56.04",
         "title": "",
         "desc": "",
         "builder": "",
@@ -328,20 +336,20 @@ var cardData = [
         "date": "October 3rd, 2020"
     },
     {
+        "id": 43,
+        "imageslug": "2020-10-16_12.32.16",
+        "title": "Glass Tube",
+        "desc": "Trans-oceanic DBFart Tunnel connecting Hill Valley and the far eastern shores.",
+        "builder": "kdmurz, teh_pitts",
+        "date": "October 16th, 2020"
+    },
+    {
         "id": 42,
         "imageslug": "2020-10-17_19.46.07",
         "title": "&#x1F3DB; Server Museum",
         "desc": "",
         "builder": "lemonan",
         "date": "October 17th, 2020"
-    },
-    {
-        "id": 43,
-        "imageslug": "2020-10-18_20.26.23",
-        "title": "Glass Tube",
-        "desc": "Trans-oceanic DBFart Tunnel connecting Hill Valley and the far eastern shores.",
-        "builder": "kdmurz, teh_pitts",
-        "date": "October 18th, 2020"
     },
     {
         "id": 44,
@@ -374,6 +382,14 @@ var cardData = [
         "desc": "Located at 100,000 blocks west of 0,0 in The End.",
         "builder": "ggo",
         "date": "January 27th, 2021"
+    },
+    {
+        "id": 61,
+        "imageslug": "2021-01-28-c",
+        "title": "End of the World",
+        "desc": "One of the markers to show that you've reached the limit of the world.",
+        "builder": "kdmurz",
+        "date": "January 28th, 2021"
     },
     {
         "id": 56,
@@ -470,5 +486,21 @@ var cardData = [
         "desc": "The tower for the community storage building near spawn.",
         "builder": "kdmurz",
         "date": "July 15th, 2021"
+    },
+    {
+        "id": 62,
+        "imageslug": "2021-07-29_16.45.02",
+        "title": "Iron Teapot",
+        "desc": "The server's public iron farm at sunset.",
+        "builder": "lemonan",
+        "date": "July 29th, 2021"
+    },
+    {
+        "id": 63,
+        "imageslug": "2021-07-29_16.54.23",
+        "title": "",
+        "desc": "",
+        "builder": "",
+        "date": "July 29th, 2021"
     }
 ]

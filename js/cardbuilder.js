@@ -17,11 +17,11 @@ function buildCardsFromFile(cardData) {
         }
 
         if (cardData[i].builder) {
-            myCardsHtml += "    <h6 class=\"card-subtitle mb-2 text-muted\">" + cardData[i].desc + "</h6>";
+            myCardsHtml += "    <h6 class=\"card-subtitle mb-2 text-muted\">&#x26cf;&#xfe0f; " + cardData[i].builder + "</h6>";
         }
 
         if (cardData[i].date) {
-            myCardsHtml += "    <h6 class=\"card-subtitle mb-2 text-muted\">&#x1F4C5 " + cardData[i].date + "</h6>";
+            myCardsHtml += "    <h6 class=\"card-subtitle mb-2 text-muted\">&#x1F4C5; " + cardData[i].date + "</h6>";
         }
 
         myCardsHtml += "  </div>";
