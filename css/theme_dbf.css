@@ -29,8 +29,14 @@ a {
   text-decoration-color:#000000;
 }
 
-.card {
-  display: inline-block;
+div.card {
+    display: inline-block;
+}
+
+div.card * {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
