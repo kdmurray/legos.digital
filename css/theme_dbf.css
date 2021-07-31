@@ -33,7 +33,7 @@ div.card {
     display: inline-block;
 }
 
-div.card * {
+div.card div {
     display: inline-flex;
     flex-direction: column;
     width: 100%;
