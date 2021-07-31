@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Legos.Digital Minecraft Server</title>
+    <title>Legos.Digital World 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset=“UTF-8”>
     <link rel="shortcut icon" href="favicon.ico" />
@@ -11,13 +11,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <meta name="theme-color" content="#ee505e" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#4A3B64" media="(prefers-color-scheme: dark)" />
-    <meta property="og:title" content="Our First Minecraft World!" />
+    <meta property="og:title" content="The First Legos.Digital Minecraft World" />
     <meta property="og:image" content="imgs/rev1_preview.png" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@dobyfriday">
     <meta name="twitter:creator" content="@assert_h">
-    <meta name="twitter:title" content="Legos.Digital Minecraft Server">
-    <meta name="twitter:description" content="A community-run Minecraft Server for Do By Friday listeners, RelayFM fans, queer-folk, and anyone friendly.">
+    <meta name="twitter:title" content="Legos.Digital World #1">
+    <meta name="twitter:description" content="Screenshots of builds, players, and history from the first Legos.Digital Minecraft world.">
     <meta name="twitter:image" content="https://legos.digital/imgs/dbf.png">
     <meta name="twitter:image:alt" content="A minecraft world where a large building with blue towers stands in the desert. Red letters on the roof that say Do By Friday next to a little glowing heart.">
     <script src="js/cardbuilder.js"></script>
@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="container-md">
+      <div class="container-xl">
         <div class="row justify-content-center">
           <div class="col-xl-12">
             <nav aria-label="breadcrumb">
@@ -37,7 +37,7 @@
               </ol>
             </nav>
 
-            <h1>Revision 1</h1>
+            <h1>Legos.Digital, World 1</h1>
             <div class="card mb-3">
               <div class="card-body text-white" style="background-color: #ee505e;">
                 <p class="card-text">World downloads are coming soon!</p>
@@ -49,24 +49,40 @@
         <div class="row justify-content-center">
           <div class="col-xl-12">
             <h2>Early Days</h2>
-            <p>Originally called Cox Blocks Rocks (<a href="http://legos.digital/coxblocksrocks">coxblocks.rocks</a>), this server was created in March of 2020 as the official minecraft server for the Do By Friday Podcast, to give people a pleasant distraction from COVID-19 with the comforting nostalgia of Minecraft. It was originally being run by Matt, before being handed to Claire and Link as a community project in June. <!--It was around for ___ months and ___ days, and had over ___ unique players join!--></p>
+            <p>Originally called Cox Blocks Rocks (<a href="http://coxblocks.rocks/">coxblocks.rocks</a>), this server was created in March of 2020 as the official minecraft server for the Do By Friday Podcast, to give people a pleasant distraction from COVID-19 with the comforting nostalgia of Minecraft. It was originally being run by Matt, before being handed to Claire and Link as a community project in June. <!--It was around for 1 year, ___ months and ___ days, and had over 800 unique players join!--> Everything&#x2014;including spawn and all 15k+ blocks distance (the actual total volume excavated is probably closer to 500k) of underground railway tunnel&#x2014;was hand-build in survival, battling skeletons and creepers the whole way.</p>
           </div>
         </div>
 
         <div class="row justify-content-center">
           <div class="col-xl-12">
             <h2>Builds & Screenshots</h2>
+            <p class="text-muted">&#x1F440; Click any image to open it in higher resolution. &#x1F4F8; <a href="https://www.instagram.com/legos.digital/">Also, we're on Instagram!</a></p>
             <div class="card-columns" id="cards">
-
               <div class="card mb-3">
                 <div class="card-body text-white" style="background-color: #ee505e;">
                   <h5 class="card-title">Want to Contribute?</h5>
-                  <p class="card-text">Have a screenshot or some other detail that you'd like to see here? Join our Discord and tell us!</p> &#x1F4AC; <a class="card-link text-white" href="http://chat.legos.digital">Join our Discord.</a>
+                  <p class="card-text">Have a screenshot or some other detail that you'd like to see here? Join our Discord and tell us!</p> <a class="card-link text-white" href="http://chat.legos.digital">Join the Legos.Digital Discord</a>
+                </div>
+              </div>
+
+              <div class="card mb-3 card-video">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="iframe-video embed-responsive-item embed-responsive-16by9" src="https://www.youtube-nocookie.com/embed/mIy67uICb_8?controls=0" title="click to play video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      <p>Your browser does not support iframes. <a href="https://www.youtube.com/watch?v=mIy67uICb_8">Click here to open the video.</a></p>
+                  </iframe>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">&#x1F386; Happy Anniversary!</h5>
+                  <p class="card-text">This server celebrated its 1-year anniversary on March 19th, 2021 while on this map. Lemonan created a fireworks show that went off during the night at the tower in spawn to celebrate, and Victor de Groot made this wonderful video.</p>
+                  <a href="https://www.youtube.com/watch?v=mIy67uICb_8" class="card-link">Watch on YouTube</a>
+                </div>
+                <div class="card-footer text-muted">
+                  &#x1F528; lemonan &#x1F4F9; victordegroot
                 </div>
               </div>
 
             <script lang="text/javascript">
-              document.getElementById("cards").innerHTML += buildCardsFromFile(cardData);
+              document.getElementById("cards").innerHTML += buildCardsFromFile(rev1_cardData, "rev1");
             </script>
 
         </div>
