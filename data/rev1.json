@@ -95,7 +95,7 @@ var rev1_cardData = [
         "date": "April 22nd, 2020"
     },
     {
-        "id": 13.5,
+        "id": 64,
         "imageslug": "",
         "title": "Server Railway",
         "desc": "DBFart (or Do By Friday Area Rapid Transit) is the server's underground minecart railway. Many contributors spent hundreds of hours digging underground tunnels over 15,000 blocks long to many different locations around the map. Yes, 15,000 blocks long. Really. And since each tunnel has a minimum cross sectional area of 15 blocks and is lined with stone bricks, that's... a lot of digging. Every major city is served by some connection on the network, and many small houses and builds have transfers to short lines and connecting stations too.",
@@ -144,7 +144,7 @@ var rev1_cardData = [
         "date": "May 1st, 2020"
     },
     {
-        "id": 18.5,
+        "id": 65,
         "imageslug": "",
         "title": "Spawn 2.0",
         "desc": "Originally, spawn was a very small walled village. The current spawn was rebuilt entirely in survival mode over a single weekend by many players! Decorative blocks and tools were gathered the week in advance, and a small <a href=\"https://www.minecraft.net/en-us/realms\">Minecraft Realm</a> was set up in creative mode to help brainstorm aesthetics and plan the layout.",
@@ -535,5 +535,45 @@ var rev1_cardData = [
         "desc": "One of the markers to show that you've reached the limit of the world.",
         "builder": "kdmurz",
         "date": ""
+    },
+    {
+        "id": 66,
+        "imageslug": "2021-07-31_17.51.10-mtn-lake-lamps",
+        "title": "Mountain City",
+        "desc": "A picturesque lake and floating lanterns at mountain city.",
+        "builder": "GoblinJones",
+        "date": "July 31st, 2021"
+    },
+    {
+        "id": 67,
+        "imageslug": "2021-08-03_11.14.53-cubeyd-surface",
+        "title": "Entrance to Cubey D's",
+        "desc": "Above ground build and entrance to Cubey D's, the location of the server's first trading hall.",
+        "builder": "CubeyD",
+        "date": "August 3rd, 2021"
+    },
+    {
+        "id": 68,
+        "imageslug": "2021-08-04_14.02.25-hv-new-warp",
+        "title": "Hill Valley's New Warp",
+        "desc": "New landing spot for the Hill Valley warp with sweeping views of the village and harbour.",
+        "builder": "Lemonan",
+        "date": "August 4th, 2021"
+    },
+    {
+        "id": 69,
+        "imageslug": "2021-08-04_14.08.14-alps-indoor-grove",
+        "title": "Alps Indoor Grove",
+        "desc": "Indoor tree grove built inside the mountain at The Alps",
+        "builder": "",
+        "date": "August 4th, 2021"
+    },
+    {
+        "id": 70,
+        "imageslug": "2021-08-04_14.11.41-alps-library",
+        "title": "Alps Library",
+        "desc": "Beautifully appointed library at The Alps, complete with reading nooks and beautiful views of the valley.",
+        "builder": "",
+        "date": "August 4th, 2021"
     }
 ]
