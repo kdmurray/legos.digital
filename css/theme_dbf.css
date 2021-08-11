@@ -13,11 +13,11 @@ body {
 }
 
 .headsup {
-  background-color: #fedb00;
+  background-color: #FAE65C;
 }
 
 .highlight {
-  background-color: #440099;
+  background-color: #4A3B64;
 }
 
 .primary {
@@ -43,6 +43,12 @@ div.card div {
   width: 100%;
   height: 100%;
   min-height: 300px;
+}
+
+.iframe-dynmap {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
 }
 
 @media (min-width: 768px) {
